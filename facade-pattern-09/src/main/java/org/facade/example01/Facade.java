@@ -1,5 +1,8 @@
 package org.facade.example01;
 
+/**
+ * 外观角色：为多个子系统对外提供一个共同的接口
+ */
 public class Facade {
 
     private SubSystemA obj1 = new SubSystemA();
@@ -11,6 +14,4 @@ public class Facade {
         obj2.methodB();
         obj3.methodC();
     }
-
-
 }
